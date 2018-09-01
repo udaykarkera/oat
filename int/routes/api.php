@@ -15,3 +15,5 @@ use Illuminate\Http\Request;
 
 Route::get('/get-test-takers', "TesttakersController@index");
 
+// Handling it using a Factory Design Pattern
+Route::get('/get-test-takers-by-factory', "TesttakersController@getTestTakersByFactory");
